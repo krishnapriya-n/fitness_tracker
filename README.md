@@ -10,15 +10,21 @@ The main code for this app was developed by [Aarnavman](https://github.com/aarna
 - **Exercise Tracker**: Allows users to log and track their exercises.
 - **Macro Tracker**: Helps users keep track of their macronutrients (carbs, fats, proteins).
 - **AI Chatbot**: Provides fitness-related advice and answers questions via a conversational interface.
+- **Water Tracker**: Enables users to track their daily water intake.
+- **Sleep Tracker**: Tracks users' sleep patterns and quality.
 
 ## Requirements
 
 The following libraries are required to run the app:
 
-- `openai`: For interacting with OpenAI's GPT models.
 - `streamlit`: For building the interactive web app.
 - `requests`: For making HTTP requests.
 - `pandas`: For managing and analyzing data.
+- `matplotlib`: For plotting graphs.
+- `pyttsx3`: For text-to-speech functionality.
+- `plotly`: For creating interactive plots and charts.
+- `textblob`: For sentiment analysis and text processing.
+- `transformers`: For using pre-trained NLP models.
 
 ## Installation
 
@@ -52,23 +58,10 @@ Once the virtual environment is activated, install the required dependencies by 
 pip install -r requirements.txt
 ```
 
-### 4. Set up OpenAI API key
-The chatbot uses OpenAI's API to provide responses. To set up:
-
-1. Create an account at OpenAI.
-2. Obtain your API key from the OpenAI API Dashboard.
-3. Paste the key onto the `chatbot.py` code.
-
-### 5. Set up USDA API key
-The macro tracker is made using values from USDA. To set up:
-1. Create an account at USDA APIs.
-2. Obtain your API key.
-3. Paste the key onto the `macro_tracker.py` code.
-
-### 6. Run the app
+### 4. Run the app
 Once everything is set up, you can run the app locally using Streamlit:
 ```bash
-streamlit run app.py
+streamlit run macro_tracker.py
 ```
 
 This will launch the app in your default web browser. You can start using it immediately.
@@ -87,6 +80,12 @@ This will launch the app in your default web browser. You can start using it imm
 
 ### AI Chatbot
 - Chat with the AI about fitness, nutrition, or any questions you may have. The chatbot is powered by OpenAI's GPT and is designed to help with fitness-related queries.
+
+### Water Tracker
+- Log your daily water intake and monitor how well you're meeting your hydration goals.
+
+### Sleep Tracker
+- Track your sleep patterns, including hours of sleep and sleep quality.
 
 ## Contributing
 If you'd like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request. Contributions are always welcome!
