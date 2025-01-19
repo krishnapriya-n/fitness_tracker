@@ -15,7 +15,7 @@ from transformers import pipeline
 emotion_model = pipeline("text-classification", model="bhadresh-savani/bert-base-uncased-emotion")
 
 
-API_KEY = "c5tmsb8zUFSdHNtB4dGVeeEUyHveyggVlVdia5he"
+API_KEY = "Enter your API KEY here"
 
 
 def add_custom_css():
