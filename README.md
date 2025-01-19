@@ -6,9 +6,9 @@ The main code for this app was developed by [Aarnavman](https://github.com/aarna
 
 ## Features
 
-- **Home Page**: Users can input their personal information, such as age range, height, weight, and daily calorie goal.
-- **Exercise Tracker**: Allows users to log and track their exercises.
+- **Home Page**: Users can input their carbs, protein and fats goal.
 - **Macro Tracker**: Helps users keep track of their macronutrients (carbs, fats, proteins).
+- **Exercise Tracker**: Allows users to log and track their exercises.
 - **AI Chatbot**: Provides fitness-related advice and answers questions via a conversational interface.
 - **Water Tracker**: Enables users to track their daily water intake.
 - **Sleep Tracker**: Tracks users' sleep patterns and quality.
@@ -68,15 +68,11 @@ This will launch the app in your default web browser. You can start using it imm
 
 ## Usage
 
-### Home Page
-- Input your age, height, weight, and daily calorie goal.
-- These details will be saved and can be used in other sections of the app.
-
-### Exercise Tracker
-- Track your exercises by adding data such as the type of exercise, duration, and calories burned.
-
 ### Macro Tracker
 - Keep track of your daily macronutrient intake (carbs, fats, proteins).
+  
+### Exercise Tracker
+- Track your exercises by adding data such as the type of exercise, duration, and calories burned.
 
 ### AI Chatbot
 - Chat with the AI about fitness, nutrition, or any questions you may have. The chatbot is powered by OpenAI's GPT and is designed to help with fitness-related queries.
