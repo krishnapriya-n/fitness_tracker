@@ -1,4 +1,4 @@
-# Fitness Tracker App
+# MacroFit: Fitness Tracker App
 
 This is a simple fitness tracker app built using Streamlit and OpenAI's GPT for chatbot interactions. It allows users to input personal details, track exercise and macro data, and interact with an AI chatbot to get fitness-related advice.
 
