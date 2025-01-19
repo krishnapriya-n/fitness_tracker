@@ -2,7 +2,13 @@
 # To install the required dependencies for this project, run:
 # pip install -r requirements.txt
 
-openai
 streamlit
 requests
 pandas
+matplotlib
+pyttsx3
+plotly
+datetime
+textblob
+transformers
+pythoncom
